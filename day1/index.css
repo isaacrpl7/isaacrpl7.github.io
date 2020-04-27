@@ -1,0 +1,95 @@
+body {
+    background-color: #C0CAC9;
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+article {
+    margin: 0 auto;
+    width: 50rem;
+    background-color: #DEDFD7;
+    padding: 1rem 2rem;
+    border-radius: 1rem;;
+}
+.floatright {
+    float: right;
+    width: 20rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.floatleft {
+    float: left;
+    width: 20rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+article:after { /*O after é um pseudo elemento, ele representa o espaço depois do article*/
+    content: "";
+    display: table;
+    clear: both;
+}
+.block {
+    background-color: #C0CAC9;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+::selection {
+    color: black;
+    background: #FFFBEB;
+}
+a:link {
+    color: #89A0AE;
+}
+a:visited {
+    color: #89A0AE;
+}
+a:hover {
+    color: #546880;
+}
+nav {
+    background-color: #546880;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+}
+nav img {
+    height: 50px;
+    margin-left: 2rem;
+    background-color: #89A0AE;
+    float: left;
+}
+nav li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+nav a:link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: #546880;
+}
+nav a:hover {
+    background-color: #89A0AE;
+}
+nav a:visited {
+    color: white;
+}

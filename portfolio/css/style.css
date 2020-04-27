@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F2F2F2;
+}
+h1 {
+    font-family: 'Muli', sans-serif;
+}
+
+/* NAVIGATION BAR */
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+li a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.1rem;
+}
+li a:hover {
+    background-color: #F2F2F2;
+    color: #BFAE99;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav {
+    background-color: #BFAE99;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 20rem 0 20rem 0;
+    margin: 0;
+
+    background: url(../img/headerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+
+    vertical-align: middle;
+}
+.header h1 {
+    font-size: 6rem;
+    padding: 0;
+    color: #F2F2F2;
+    margin: 0;
+}
+.header h4 {
+    font-family: 'Muli', sans-serif;
+    color: #F2F2F2;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/* ARTICLE */
+article {
+    margin: 2rem auto;
+    width: 50%;
+}
+.card img {
+    width: 10rem;
+    margin-right: 1rem;
+    float: left;
+}
+.card {
+    overflow: hidden;
+    border-top: 1px solid #012340;
+}
+.card p {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+/* CARD LINK */
+.cardlink {
+    width: 20rem;
+    margin: 1rem auto;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.cardlink a {
+    display: block;
+    margin: 2rem 1rem 0 1rem;
+    padding: 1rem 1rem 1rem 0;
+    border-top: 2px solid #F2F2F2;
+    text-decoration: none;
+    color: #AAAAAA;
+}
+.cardlink img {
+    width: 100%;
+}
+.cardlink h1 {
+    padding-top: 0.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+}
+.cardlink p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #AAAAAA;
+}
+.group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
