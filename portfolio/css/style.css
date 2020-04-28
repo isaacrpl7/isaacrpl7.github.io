@@ -3,7 +3,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #F2F2F2;
 }
-h1 {
+h1, h4 {
     font-family: 'Muli', sans-serif;
 }
 
@@ -30,7 +30,7 @@ nav ul {
     list-style-type: none;
 }
 nav {
-    background-color: #BFAE99;
+    background-color: #493E26;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -56,7 +56,6 @@ nav {
     margin: 0;
 }
 .header h4 {
-    font-family: 'Muli', sans-serif;
     color: #F2F2F2;
     font-weight: 400;
     font-size: 1.5rem;
@@ -78,7 +77,6 @@ article {
 }
 .card p {
     margin: 0;
-    margin-bottom: 2rem;
 }
 
 /* CARD LINK */
@@ -88,6 +86,7 @@ article {
     display: inline-block;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: white;
 }
 .cardlink a {
@@ -106,6 +105,7 @@ article {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 0.3rem;
+    color: black;
 }
 .cardlink p{
     margin-left: 1rem;
