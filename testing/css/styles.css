@@ -97,8 +97,12 @@ h5 {
     margin: 0 auto;
     padding-top: 3.37rem;
 }
+.textos h3 {
+    color: #F0D2C2;
+}
 h2 {
-    padding-top: 1.31rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
     margin: 0;
     text-align: center;
     font-size: 1.5rem;
@@ -121,11 +125,9 @@ h2 {
 }
 .text-right {
     width: 439px;
-    margin-top: 4.4rem;
 }
 .text-left {
     width: 439px;
-    margin-top: 4.4rem;
 }
 
 /* FOTOS */
