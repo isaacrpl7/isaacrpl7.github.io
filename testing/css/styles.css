@@ -2,6 +2,15 @@ body{
     margin: 0;
     padding: 0;
 }
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 1.31rem;
+}
 
 .icon {
     height: 2.75rem;
@@ -101,7 +110,7 @@ h5 {
     color: #F0D2C2;
 }
 h2 {
-    padding-top: 6rem;
+    padding-top: 3.37rem;
     padding-bottom: 3rem;
     margin: 0;
     text-align: center;
@@ -137,15 +146,6 @@ h2 {
     padding-bottom: 2rem;
     background-color:#F5F5F5 ;
 }
-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    font-weight: 100;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    margin-top: 1.31rem;
-}
 .fotos .icon {
     display: block;
     margin: 0 auto;
@@ -153,8 +153,8 @@ h3 {
 }
 .fotos-grid { /* GRID PRINCIPAL */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(268px, 268px));
-    grid-template-rows: 33rem 33rem;
+    grid-template-columns: 268px 268px 268px;
+    grid-template-rows: 33rem 33rem 33rem;
     grid-auto-flow: row dense;
     grid-gap: 3rem;
     margin: 5rem 10rem;
@@ -178,7 +178,7 @@ h3 {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: black;;
+    background-color: black;
     opacity: 0.3;
     transition: opacity 0.3s ease-in-out;
 }
@@ -202,6 +202,12 @@ h3 {
     grid-row-start: 2;
     grid-column-end: span 3;
 }
+.foto:nth-of-type(5) {
+    background-image: url(../img/7.jpg);
+}
+.foto:nth-of-type(6) {
+    background-image: url(../img/31.jpg);
+}
 .foto {
     grid-column-end: span 1;
 }
@@ -213,6 +219,87 @@ h3 {
     letter-spacing: 1px;
     font-size: 18px;
 }
+
+/* SEGUNDA FOTO */
+.foto2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    background-image: url(../img/foto2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.foto2 h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 9rem;
+    color: #FCF5FB;
+    text-shadow: 1px 1px 3px rgba(68, 68, 68, 0.4);
+}
+.foto2 h2 {
+    color: #FCF5FB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-top: 25rem;
+}
+
+/* COISINHAS QUE AMO */
+.coisinhas .icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3.37rem;
+}
+.coisinhas {
+    background-color: #2B1D22;
+    color: #db8b99;
+}
+.qualidades {
+    padding: 12.6rem 0;
+    margin: 0 12rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(268px, 22rem));
+    grid-template-rows: 27rem 27rem;
+    background-color: #2B1D22;
+    grid-auto-flow: row dense;
+    grid-gap: 3rem;
+    justify-content: center;
+}
+.qualidade {
+    border: 1px solid #893746;
+    /* background-color: #da9e9e79; */
+    /* box-shadow:  0px 2px 5px rgb(26, 19, 19); */
+}
+.qualidade h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 24px;
+    font-weight: 300;
+    color: #db8b99;
+    margin: 1rem 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid #db8b99;;
+}
+.qualidade p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #db8b99;
+    margin: 2rem 2rem;
+}
+
+
 /* DESIGN RESPONSIVO */
 
 @media all and (max-width: 500px) {
@@ -254,7 +341,7 @@ h3 {
     /* FOTOS */
     .fotos-grid {
         grid-template-columns: repeat(2, 140px);
-        grid-template-rows: 300px 200px 200px 300px;
+        grid-template-rows: 300px 200px 200px 300px 250px;
         grid-gap: 1rem;
     }
     .foto:nth-of-type(1) {
@@ -271,6 +358,20 @@ h3 {
     .foto:nth-of-type(4) {
         grid-row-start: 4;
         grid-column-end: span 2;
+    }
+
+    /* FOTO 2 */
+    .foto2 h1{
+        font-size: 3rem;
+    }
+    .foto2 h2 {
+        font-size: 1rem;
+        margin-top: 10rem;
+    }
+    .qualidades {
+        grid-template-rows: repeat(6, 28rem);
+        padding-top: 5rem;
+        margin: 0 2rem;
     }
 }
 
