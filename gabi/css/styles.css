@@ -94,7 +94,7 @@ h5 {
     text-align: center;
     margin-top: 9.06rem;
     padding-bottom: 2rem;
-    color: #211B20;
+    color: #000000;
 }
 
 /* TEXTOS */
@@ -124,10 +124,10 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0 12.8rem;
-    padding-bottom: 12.5rem;
+    padding-bottom: 10rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 0.05em;
     color: #FFEDE3;
@@ -234,7 +234,7 @@ h2 {
 }
 
 .foto2 h1 {
-    margin: 0;
+    margin: 0 5rem;
     padding: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -262,8 +262,8 @@ h2 {
     color: #db8b99;
 }
 .qualidades {
-    padding: 12.6rem 0;
-    margin: 0 12rem;
+    padding: 10rem 0;
+    margin: 0 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(268px, 22rem));
     grid-template-rows: 27rem 27rem;
@@ -274,6 +274,7 @@ h2 {
 }
 .qualidade {
     border: 1px solid #893746;
+    padding-bottom: 1rem;
     /* background-color: #da9e9e79; */
     /* box-shadow:  0px 2px 5px rgb(26, 19, 19); */
 }
@@ -337,6 +338,9 @@ h2 {
         margin: 0 1rem;
         font-size: 1.1rem;
     }
+    .text-right {
+        margin-top: 2rem;
+    }
 
     /* FOTOS */
     .fotos-grid {
@@ -359,17 +363,26 @@ h2 {
         grid-row-start: 4;
         grid-column-end: span 2;
     }
+    .legenda {
+        font-size: 1rem;
+    }
 
     /* FOTO 2 */
     .foto2 h1{
         font-size: 3rem;
+        padding: 0 1rem;
+        margin: 0;
     }
     .foto2 h2 {
         font-size: 1rem;
         margin-top: 10rem;
     }
+
+    .coisinhas h3 {
+        padding: 0 0.5rem;
+    }
     .qualidades {
-        grid-template-rows: repeat(6, 28rem);
+        grid-template-rows: repeat(6, minmax(28,32));
         padding-top: 5rem;
         margin: 0 2rem;
     }
