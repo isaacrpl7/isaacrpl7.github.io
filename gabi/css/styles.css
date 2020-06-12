@@ -381,8 +381,11 @@ h2 {
     .coisinhas h3 {
         padding: 0 0.5rem;
     }
+    .qualidade {
+        padding-bottom: 1rem;
+    }
     .qualidades {
-        grid-template-rows: repeat(6, minmax(28,32));
+        grid-template-rows: repeat(6, minmax(28,40));
         padding-top: 5rem;
         margin: 0 2rem;
     }
