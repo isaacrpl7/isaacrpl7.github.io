@@ -1,5 +1,5 @@
 body {
-    background-color: #1caad9;
+    background-color: #ffffff;
 }
 .Brazilmap {
     display: block;
@@ -8,13 +8,31 @@ body {
     margin: 0 auto;
 }
 .Brazilmap path {
-    fill: #094052;
-    stroke: #157b9d;
+    stroke: #2abe68;
     stroke-width: 1.5;
 }
-path:hover {
-    fill: #157b9d;
+
+/* REGIÕES */
+.Brazilmap .norte path {
+    fill: #a4ffc2;
 }
+.Brazilmap .sul path {
+    fill: #88fdaf;
+}
+.Brazilmap .nordeste path {
+    fill: #cffcde;
+}
+.Brazilmap .centro-oeste path {
+    fill: #34ff77;
+}
+.Brazilmap .sudeste path {
+    fill: #42dd76;
+}
+
+.Brazilmap path:hover {
+    fill: #ebffe9;
+}
+
 h1 {
     text-align: center;
     margin-top: 0;
@@ -22,18 +40,19 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 5rem;
-    color: #094052;
+    color: #462e00;
 }
 
 
 /* INFORMATION STYLES */
 .info {
     margin: 5rem 10rem;
-    background-color: #3ac0ec;
+    background-color: #dbcaaa;
     border-radius: 1rem;
     font-family: 'Open Sans', sans-serif;
-    color: #094052;
-    box-shadow: 0px 0px 20px #094052;
+    color: #462e00;
+    border: 1px solid #251800;
+    /* box-shadow: 0px 0px 5px #003603; */
 }
 .info h1 {
     margin: 0;
@@ -41,7 +60,6 @@ h1 {
 }
 .state {
     padding-top: 5rem;
-    color: #094052;
 }
 .grid {
     display: grid;
@@ -54,25 +72,25 @@ h1 {
 h3 {
     margin: 0;
     padding: 0;
-    color: #157b9d;
+    color: #462e0075;
     margin-left: 1.5rem;
     margin-top: 2rem;
     padding-left: 0.5rem;
-    border-left: 3px solid #2896bb;
+    border-left: 3px solid #462e0075;
 }
 h2 {
     margin: 0;
     padding: 0;
     padding-left: 2rem;
     padding-bottom: 2rem;
-    color: #094052;
+    color: #462e00;
     font-size: 4rem;
 }
 .card {
-    border: 1px solid #1caad9;
-    background-color: #1caad9;
+    /* border: 1px solid #1caad9; */
+    background-color: #887b64;
     border-radius: 1rem;
-    box-shadow: 0px 0px 5px #3eabcf;
+    box-shadow: 0px 0px 5px #000000;
 }
 
 .visible {
