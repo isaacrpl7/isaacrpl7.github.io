@@ -99,3 +99,12 @@ h2 {
 .hide {
     display: none;
 }
+
+/* CHART */
+.chart-container {
+    position: relative;
+    display: flex;
+    height: 15vh;
+    width: 30vw;
+    margin: 0 auto;
+}
